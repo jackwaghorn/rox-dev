@@ -1,0 +1,39 @@
+{
+  "name": "prismic-text-v3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@prismicio/vue": "^3.0.0-alpha.0",
+    "@vueuse/core": "^5.0.3",
+    "core-js": "^3.6.5",
+    "lazysizes": "^5.3.2",
+    "prismic-javascript": "^3.0.2",
+    "swiper": "^6.8.4",
+    "vue": "^3.1.1",
+    "vue-binpacker-plugin": "^2.0.1",
+    "vue-plyr": "^7.0.0",
+    "vue-router": "^4.0.0-0",
+    "vue-vimeo-player": "^1.1.1",
+    "vue3-carousel": "^0.1.25",
+    "vue3-lazy": "^1.0.0-alpha.1",
+    "vue3-lazyload": "^0.2.2-beta"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-fetch": "^2.6.1",
+    "node-sass": "^6.0.1"
+  }
+}
